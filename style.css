@@ -93,28 +93,15 @@ section {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Contact Section */
-.contact p {
-  margin-bottom: 1rem;
-  color: #c9d1d9;
+/* Contact */
+.social-links a {
+  color: #58a6ff;
+  margin: 0 10px;
+  font-size: 1.8rem;
+  transition: transform 0.3s;
 }
-
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 1rem;
-}
-
-.social-links a svg {
-  width: 40px;
-  height: 40px;
-  transition: transform 0.3s, fill 0.3s;
-}
-
-.social-links a:hover svg {
+.social-links a:hover {
   transform: scale(1.2);
-  fill: #2ea043;
 }
 
 /* Footer */
@@ -146,9 +133,5 @@ footer {
   }
   header {
     text-align: center;
-  }
-
-  .social-links {
-    gap: 1rem;
   }
 }
