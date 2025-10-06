@@ -93,33 +93,14 @@ section {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Contact Section */
-.contact p {
-  margin-bottom: 1.5rem;
-  font-size: 1.1rem;
-  color: #c9d1d9;
-}
-
-.contact .btn {
-  display: inline-block;
-  margin-bottom: 1.5rem;
-}
-
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 0.5rem;
-}
-
+/* Contact */
 .social-links a {
   color: #58a6ff;
-  font-size: 2rem;
-  transition: all 0.3s ease;
+  margin: 0 10px;
+  font-size: 1.8rem;
+  transition: transform 0.3s;
 }
-
 .social-links a:hover {
-  color: #2ea043;
   transform: scale(1.2);
 }
 
@@ -152,14 +133,5 @@ footer {
   }
   header {
     text-align: center;
-  }
-
-  .social-links {
-    gap: 1rem;
-  }
-
-  .contact .btn {
-    width: 70%;
-    padding: 0.5rem;
   }
 }
