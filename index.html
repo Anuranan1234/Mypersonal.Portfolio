@@ -64,7 +64,12 @@
   <!-- Contact Section -->
   <section id="contact" class="contact fade-in">
     <h2>Contact</h2>
-    <p>Let's connect! You can reach me through any of the links below:</p>
+    <p>Let's connect! You can reach me through any of the links below or download my CV:</p>
+
+    <!-- CV Button -->
+    <a href="Anuranan_Das_CV_Visual_Fixed.pdf" class="btn" download>Download CV</a>
+
+    <!-- Social Links -->
     <div class="social-links">
       <a href="mailto:anuranan16@gmail.com"><i class="fas fa-envelope"></i></a>
       <a href="https://www.linkedin.com/in/anuranan-das-104aa0283" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -76,24 +81,18 @@
     <p>© 2025 Anuranan Das | Built with 💻 and ☕</p>
   </footer>
 
+  <!-- Fade-in Animation -->
   <script>
-   <script>
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("show");
-      }
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        }
+      });
     });
-  });
 
-  const fadeElements = document.querySelectorAll(".fade-in");
-  fadeElements.forEach((el) => observer.observe(el));
-</script>
-
+    const fadeElements = document.querySelectorAll(".fade-in");
+    fadeElements.forEach((el) => observer.observe(el));
   </script>
 </body>
 </html>
-
-
-
-
