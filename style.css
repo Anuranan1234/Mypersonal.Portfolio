@@ -93,15 +93,32 @@ section {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Contact */
-.social-links a {
-  color: #58a6ff;
-  margin: 0 10px;
-  font-size: 1.8rem;
-  transition: transform 0.3s;
+/* Contact Section Fix */
+.contact {
+  padding: 6rem 2rem;
 }
+
+.contact p {
+  margin-bottom: 1rem;
+  color: #c9d1d9; /* visible on dark background */
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  font-size: 2rem; /* bigger icons for visibility */
+  color: #58a6ff;  /* bright blue */
+  transition: transform 0.3s, color 0.3s;
+}
+
 .social-links a:hover {
   transform: scale(1.2);
+  color: #2ea043; /* hover color */
 }
 
 /* Footer */
@@ -133,5 +150,9 @@ footer {
   }
   header {
     text-align: center;
+  }
+
+  .social-links {
+    gap: 1rem;
   }
 }
