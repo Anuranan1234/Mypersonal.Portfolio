@@ -93,14 +93,10 @@ section {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Contact Section Fix */
-.contact {
-  padding: 6rem 2rem;
-}
-
+/* Contact Section */
 .contact p {
   margin-bottom: 1rem;
-  color: #c9d1d9; /* visible on dark background */
+  color: #c9d1d9;
 }
 
 .social-links {
@@ -110,15 +106,15 @@ section {
   margin-top: 1rem;
 }
 
-.social-links a {
-  font-size: 2rem; /* bigger icons for visibility */
-  color: #58a6ff;  /* bright blue */
-  transition: transform 0.3s, color 0.3s;
+.social-links a svg {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s, fill 0.3s;
 }
 
-.social-links a:hover {
+.social-links a:hover svg {
   transform: scale(1.2);
-  color: #2ea043; /* hover color */
+  fill: #2ea043;
 }
 
 /* Footer */
